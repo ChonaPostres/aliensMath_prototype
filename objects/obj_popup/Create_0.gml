@@ -1,3 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-image_index = 1;	
+sprite_index = spr_popup;
+image_index = 0;

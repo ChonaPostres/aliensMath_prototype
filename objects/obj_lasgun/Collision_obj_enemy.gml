@@ -2,4 +2,6 @@
 // Puede escribir su código en este editor
 
 global.question_lvl1_index = 0;
-game_restart();
+global.lose_lvl = true;
+//show_message("perdiste el lvl: "+ string(global.lose_lvl));
+//game_restart();

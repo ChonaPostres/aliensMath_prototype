@@ -5,6 +5,11 @@ global.questions_lvl1 = [];
 global.cooldown = 0;
 global.correct = true;
 global.enemies_created = 0;
+global.enemies_defeated = 0;
+global.win_lvl = false;
+global.lose_lvl = false;
+global.pause_lvl = false;
+popup = true;
 timer = 0;
 enemies = 0;
 global.max_enemies = 0;
@@ -21,5 +26,5 @@ if (file_exists(working_directory + "lvl1.json")) {
 	global.questions_lvl1 = json_data;
 	global.quesstions_lvl1_size = array_length(json_data);
 	
-	global.max_enemies = 10; // Número máximo de enemigos que el spawner puede crear
+	global.max_enemies = 3; // Número máximo de enemigos que el spawner puede crear
 }

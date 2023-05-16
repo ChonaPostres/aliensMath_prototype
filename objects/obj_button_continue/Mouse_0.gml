@@ -1,3 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-image_index = 2;
+
+global.pause_lvl = false;
+if (!global.pause_lvl) {
+	instance_destroy();
+}
