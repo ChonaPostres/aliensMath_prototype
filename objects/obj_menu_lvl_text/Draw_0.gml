@@ -8,3 +8,4 @@ draw_text(660, 240,"Tutorial");
 draw_text(665, 370,"Nivel 1");
 draw_text(660, 500,"Nivel 2");
 draw_text(660, 630,"Nivel 3");
+draw_text(330, 430,"Volver");

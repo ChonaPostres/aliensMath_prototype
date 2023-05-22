@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "LVL1",
-    "path": "folders/Objetos/LVL1.yy",
+    "name": "LVL",
+    "path": "folders/Objetos/LVL.yy",
   },
   "parentObjectId": null,
   "persistent": false,

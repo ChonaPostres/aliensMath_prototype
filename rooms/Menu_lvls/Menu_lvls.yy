@@ -13,6 +13,7 @@
     {"name":"inst_70CD7C5F","path":"rooms/Menu_lvls/Menu_lvls.yy",},
     {"name":"inst_6E36FEF4","path":"rooms/Menu_lvls/Menu_lvls.yy",},
     {"name":"inst_77F2646","path":"rooms/Menu_lvls/Menu_lvls.yy",},
+    {"name":"inst_18897447","path":"rooms/Menu_lvls/Menu_lvls.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_261AFF16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_lvl1","path":"objects/obj_button_lvl1/obj_button_lvl1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":615.0,"y":339.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70CD7C5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_lvl2","path":"objects/obj_button_lvl2/obj_button_lvl2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":615.0,"y":467.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E36FEF4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_lvl3","path":"objects/obj_button_lvl3/obj_button_lvl3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":615.0,"y":595.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18897447","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_go_back","path":"objects/obj_button_go_back/obj_button_go_back.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":416.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_menu_back","path":"sprites/spr_menu_back/spr_menu_back.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

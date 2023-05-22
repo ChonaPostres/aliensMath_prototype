@@ -1,3 +1,8 @@
+draw_set_font(fnt_text_score);
+draw_set_color(c_white);
+draw_text(20, 20, "PUNTOS:");
+draw_set_color(c_aqua);
+draw_text(130, 20, string(global.score));
 draw_set_font(fnt_text_game);
 draw_set_color(c_white);
 if (global.cooldown == 0 and global.enemies_defeated < global.max_enemies and !global.lose_lvl and !global.pause_lvl and !global.win_lvl) {

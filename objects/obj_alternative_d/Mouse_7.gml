@@ -9,7 +9,7 @@ if (global.cooldown == 0 && global.enemies_created > 0 && !global.win_lvl && !gl
 			instance_create_layer(global.player_x + 350, global.player_y + 70, "Instances", obj_energy_ball);
 			global.reloading = 1;
 			if (global.quesstions_lvl1_size - 1 > global.question_lvl1_index) global.question_lvl1_index++;
-			show_message("index: "+ string(global.question_lvl1_index));
+			//show_message("index: "+ string(global.question_lvl1_index));
 			global.cooldown = 100;
 			global.correct = true;
 			alarm[0] = 100;
