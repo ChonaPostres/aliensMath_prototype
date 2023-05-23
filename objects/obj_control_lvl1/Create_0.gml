@@ -64,6 +64,6 @@ if (file_exists(working_directory + "lvl1.json") && file_exists(working_director
 	global.questions_lvl1 = shuffleArray(json_data_questions);
 	global.quesstions_lvl1_size = array_length(json_data_questions);
 	global.max_score = json_data_lvl_score[0].lvl1;
-	global.max_enemies = 3; // Número máximo de enemigos que el jugador tiene que derrotar
+	global.max_enemies = 10; // Número máximo de enemigos que el jugador tiene que derrotar
 }
 
