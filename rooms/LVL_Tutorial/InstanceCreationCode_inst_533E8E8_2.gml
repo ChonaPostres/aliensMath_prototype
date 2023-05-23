@@ -1,0 +1,1 @@
+//alternative = global.questions_lvl1[global.question_lvl1_index].a;

@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_lvl_tutorial",
+  "name": "obj_button_confirm_tutorial2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu_lvls",
-    "path": "folders/Objetos/Menu_lvls.yy",
+    "name": "LVL",
+    "path": "folders/Objetos/LVL.yy",
   },
   "parentObjectId": null,
   "persistent": false,

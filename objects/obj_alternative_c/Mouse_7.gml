@@ -14,13 +14,20 @@ if (global.cooldown == 0 && global.enemies_created > 0 && !global.win_lvl && !gl
 			global.correct = true;
 			alarm[0] = 100;
 		} else {
-			image_index = 1;
-			//set cooldown to current weaponspeed
-			global.cooldown = 300;
-			if (global.quesstions_lvl1_size - 1 > global.question_lvl1_index) global.question_lvl1_index++;
-			global.correct = false;
-			//global.max_enemies--;
-			alarm[0] = 300;	
+			if (!global.tutorial) {
+				image_index = 1;
+				//set cooldown to current weaponspeed
+				global.cooldown = 300;
+				if (global.quesstions_lvl1_size - 1 > global.question_lvl1_index) global.question_lvl1_index++;
+				global.correct = false;
+				//global.max_enemies--;
+				alarm[0] = 300;	
+			} else {
+				image_index = 1;
+				global.cooldown = 100;
+				global.correct = false;
+				alarm[0] = 100;	
+			}
 		}
 		
 }

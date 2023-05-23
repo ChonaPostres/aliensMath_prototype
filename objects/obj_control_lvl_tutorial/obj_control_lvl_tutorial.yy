@@ -1,15 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_lvl_tutorial",
+  "name": "obj_control_lvl_tutorial",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu_lvls",
-    "path": "folders/Objetos/Menu_lvls.yy",
+    "name": "LVL",
+    "path": "folders/Objetos/LVL.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,10 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
+  "spriteId": null,
+  "spriteMaskId": {
     "name": "spr_button",
     "path": "sprites/spr_button/spr_button.yy",
   },
-  "spriteMaskId": null,
   "visible": true,
 }
