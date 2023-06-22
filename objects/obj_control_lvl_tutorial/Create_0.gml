@@ -1,4 +1,13 @@
 /// @description Import JSON
+if audio_is_playing(music_menu)
+{
+	audio_stop_sound(music_menu);
+}
+
+if !audio_is_playing(music_lvl)
+{
+  audio_play_sound(music_lvl, 1, true);
+}
 
 // Variables Globales
 global.question_lvl1_index = 0;

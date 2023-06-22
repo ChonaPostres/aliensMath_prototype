@@ -3,6 +3,16 @@
 // Función para desordenar un array utilizando el algoritmo de mezcla aleatoria (Fisher-Yates)
 /// @param array El array que deseas desordenar
 /// @return El array desordenado
+if audio_is_playing(music_menu)
+{
+	audio_stop_sound(music_menu);
+}
+
+if !audio_is_playing(music_lvl)
+{
+  audio_play_sound(music_lvl, 1, true);
+}
+
 function shuffleArray(array)
 {
     var arrayLength = array_length_1d(array);

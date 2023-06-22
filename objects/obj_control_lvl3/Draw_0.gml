@@ -19,7 +19,7 @@ if (global.cooldown == 0 and global.enemies_defeated < global.max_enemies and !g
 		draw_text(170, 250, "Correcto!!! :)");	
 	} else {
 		draw_set_font(fnt_text_game);
-		draw_text(170, 250, "Incorrecto :(");	
+		draw_text(170, 250, "Incorrecto :(");
 	}
 	draw_set_font(fnt_text_alternatives);
 	draw_text(96+60, 608+50, "...");

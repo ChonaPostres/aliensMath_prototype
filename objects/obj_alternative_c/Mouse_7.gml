@@ -14,6 +14,7 @@ if (global.cooldown == 0 && global.enemies_created > 0 && !global.win_lvl && !gl
 			global.correct = true;
 			alarm[0] = 100;
 		} else {
+			audio_play_sound(snd_wrong, 2, false);
 			if (!global.tutorial) {
 				image_index = 1;
 				//set cooldown to current weaponspeed
