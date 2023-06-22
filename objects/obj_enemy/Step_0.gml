@@ -4,6 +4,7 @@ if (hit > 0) {
 	global.score = global.score + (1100 - timer_score);
 	//show_message(string(global.score));
 	timer_score = 0;
+	audio_play_sound(snd_scream, 0, false)
 	instance_destroy();
 }
 if (global.win_lvl or global.lose_lvl or global.pause_lvl) {

@@ -1,5 +1,6 @@
 /// @description Resetear data de puntos obtenido por el jugador
 // Puede escribir su código en este editor
+audio_play_sound(snd_beep, 0, false);
 player_score = []
 if (file_exists(working_directory + "player_score.json")) {
 	var json_lvl_score = "";
