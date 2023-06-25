@@ -47,10 +47,15 @@ global.new_record = false;
 global.lvl_score = [];
 global.tutorial = false;
 global.status_tutorial = -1;
+global.advice1 = true;
+global.status_advice1 = 0;
 //
 popup = true;
 timer = 0;
 enemies = 0;
+
+
+
 if (file_exists(working_directory + "lvl1.json") && file_exists(working_directory + "player_score.json")) {
 	var json_questions = "";
 	var json_lvl_score = "";

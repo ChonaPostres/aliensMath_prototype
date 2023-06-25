@@ -26,6 +26,8 @@ global.lvl_score = [];
 global.new_record = false;
 global.tutorial = true;
 global.status_tutorial = 0;
+global.advice = false;
+global.status_advice = -1;
 //
 popup = true;
 timer = 0;

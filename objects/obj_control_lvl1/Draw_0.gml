@@ -27,4 +27,3 @@ if (global.cooldown == 0 and global.enemies_defeated < global.max_enemies and !g
 	draw_text(800+60, 608+50, "...");
 	draw_text(1120+60, 608+50, "...");
 }
-

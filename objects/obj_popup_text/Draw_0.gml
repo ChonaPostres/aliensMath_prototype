@@ -64,8 +64,7 @@ draw_set_font(fnt_text_game);
 	draw_text(470, 305, "debes indicarlo en la casillas de abajo, las cuales tienen las posibles");
 	draw_text(470, 325, "respuestas a la ecuacion, debes tener cuidado con colocar la");
 	draw_text(470, 345, "respuesta.");
-	
 	draw_text(470, 385, "Presiona Entiendo para jugar");
 	
 	draw_text(690, 465,"Entendido");
-}	
+}
